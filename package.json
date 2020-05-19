@@ -1,0 +1,71 @@
+{
+  "name": "gatsby-general-default",
+  "private": true,
+  "description": "A simple starter to get up and developing quickly with Gatsby",
+  "version": "0.1.0",
+  "author": "Owen Young <theowenyoung@gmail.com>",
+  "config": {
+    "commitizen": {
+      "path": "@commitlint/prompt"
+    }
+  },
+  "scripts": {
+    "build": "GATSBY_EXPERIMENTAL_PAGE_BUILD_ON_DATA_CHANGES=true  gatsby build --log-pages",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "lint": "eslint src",
+    "start": "npm run develop",
+    "dev": "npm run start",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "commit": "git-cz",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "dependencies": {
+    "@commitlint/cli": "^8.3.5",
+    "@commitlint/config-conventional": "^8.3.4",
+    "babel-plugin-styled-components": "^1.10.7",
+    "gatsby": "^2.21.22",
+    "gatsby-image": "^2.4.3",
+    "gatsby-plugin-create-client-paths": "^2.3.1",
+    "gatsby-plugin-google-analytics": "^2.3.1",
+    "gatsby-plugin-manifest": "^2.4.2",
+    "gatsby-plugin-netlify": "^2.3.2",
+    "gatsby-plugin-offline": "^3.2.1",
+    "gatsby-plugin-react-helmet": "^3.3.1",
+    "gatsby-plugin-react-intl": "^1.0.0",
+    "gatsby-plugin-robots-txt": "^1.5.0",
+    "gatsby-plugin-sharp": "^2.6.2",
+    "gatsby-plugin-sitemap": "^2.4.2",
+    "gatsby-plugin-styled-components": "^3.3.1",
+    "gatsby-plugin-zeit-now": "^0.3.0",
+    "gatsby-source-filesystem": "^2.3.1",
+    "gatsby-transformer-sharp": "^2.5.2",
+    "prop-types": "^15.7.2",
+    "react": "^16.13.1",
+    "react-dom": "^16.13.1",
+    "react-helmet": "^6.0.0",
+    "styled-components": "^5.1.0"
+  },
+  "devDependencies": {
+    "@commitlint/config-angular": "^8.3.4",
+    "@commitlint/prompt": "^8.3.5",
+    "commitizen": "^4.1.2",
+    "eslint-config-react-app": "^5.2.1",
+    "husky": "^4.2.5",
+    "lint-staged": "^10.2.2",
+    "prettier": "2.0.5",
+    "typescript": "^3.9.2"
+  },
+  "keywords": [
+    "gatsby"
+  ],
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/gatsbyjs/gatsby-starter-default"
+  },
+  "bugs": {
+    "url": "https://github.com/gatsbyjs/gatsby/issues"
+  }
+}
