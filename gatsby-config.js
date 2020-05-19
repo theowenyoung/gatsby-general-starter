@@ -3,6 +3,7 @@ const config = require("./config")
 module.exports = {
   siteMetadata: config.siteMetadata,
   plugins: [
+    "gatsby-plugin-stylelint",
     {
       resolve: `gatsby-plugin-react-intl`,
       options: {

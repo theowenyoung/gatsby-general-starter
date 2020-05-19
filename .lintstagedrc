@@ -1,4 +1,4 @@
 {
-  "*.js": "npm run lint -- --fix",
+  "*.js": "npm run lint",
   "*.{json,md}": "npm run format"
 }
