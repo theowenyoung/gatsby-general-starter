@@ -1,6 +1,6 @@
 import React from "react"
 import { useIntl, FormattedMessage } from "../../utils"
-import Link from "../../components/link"
+import Link from "../../components/bases/link"
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
 import Language from "../../components/boilerplates/language"
