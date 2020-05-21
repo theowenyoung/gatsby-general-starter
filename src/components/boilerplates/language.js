@@ -1,5 +1,5 @@
 import React from "react"
-import { IntlContextConsumer, changeLocale } from "../../utils/intl"
+import { IntlContextConsumer, changeLocale } from "../../utils"
 
 const languageName = {
   en: "English",

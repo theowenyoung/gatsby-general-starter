@@ -1,5 +1,5 @@
 import React from "react"
-import { useIntl } from "../../utils/intl"
+import { useIntl } from "../../utils"
 import Layout from "../../components/layout"
 import SEO from "../../components/seo"
 const Page = () => {
